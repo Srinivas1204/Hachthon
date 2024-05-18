@@ -14,8 +14,8 @@ body{
     padding:20px;
     border: 1px solid;
     background-color: white;
-    width: 500px;
-    box-shadow: 0 0 10px;
+    width: 700px;
+    box-shadow: 0 0 10px black;
 
 }
 #form input{
@@ -31,25 +31,28 @@ body{
 
 }
 #form button{
-    font-size: 27px;
-    padding: 2px;
-    border-radius: 10px;
-    width: 120px;
-    margin: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 8px;
+    width: 180px;
+    margin: 10px 0;
     background-color: rgb(33, 147, 196);
 
 }
-#form button:hover{
-    width: 130px;
+#form button[type='submit']:hover{
+    width: 200px;
     background-color: rgb(42, 188, 127);
+    border-radius: 15px;
+}
+#form button:hover{
+    background-color: rgb(42, 188, 127);
+    border-radius: 15px;
 }
 
 #form table {
-    display: flex;
     text-align: center;
-    justify-content: center;
     border-collapse: collapse;
-    margin-bottom: 50px;
+    left:50%
 }
 
 #form tr,td,th{
